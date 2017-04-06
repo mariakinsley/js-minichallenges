@@ -43,7 +43,7 @@ console.log(digits(348597));
 // Build a function to illustrate how to get this sequence to output. If you don’t know where to begin start with pseudo code to work through the steps.
 
 
-var fibonacci[5,10]
+var fibonacci[23,32]
 for (var i = 0; i <=8; i++) {
   fibonacci[i]= fibonacci[i-2] + fibonacci [i-1];
 }
