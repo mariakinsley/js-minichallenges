@@ -1,8 +1,4 @@
 
-
-
-// console.log("hello");
-// Write a function named stringy that takes a size and returns a string of alternating '1s' and '0s'.
 // The string should start with a 1.
 // For example, a string:
 // with size 6 should return :'101010'.
@@ -10,16 +6,16 @@
 // with size 12 should return : '101010101010'.
 // The size will always be positive and will only use whole numbers.
 // this works on replit
-var numbers  = 8
-for (var i=1; i <=number ; i++){
-  if(i%2 == 0){
-    console.log(0)
-  } else {
-    console.log ( 1)
-  }
+var numbers = 8
+for (var i = 1; i <= number; i++) {
+    if (i % 2 == 0) {
+        console.log(0)
+    } else {
+        console.log(1)
+    }
 }
 
-var numbers = [1, 0, 1, 0, 1, 0, 1, 0,];
+var numbers = [1, 0, 1, 0, 1, 0, 1, 0, ];
 
 
 
@@ -27,13 +23,14 @@ var numbers = [1, 0, 1, 0, 1, 0, 1, 0,];
 // Given a non-negative integer, return an array containing a list of independent digits in reverse order.
 // Example: 348597 => [7,9,5,8,4,3]
 // // could i use .reveverse
+
 function digits(n) {
-  var initialArray = (""+n).split('');
-  var reversedArray = [];
-  for (var i = initialArray.length - 1; i >= 0; i--) {
-    reversedArray[i] = parseInt(initialArray.shift(),10);
-  }
-  return reversedArray;
+    var initialArray = ("" + n).split('');
+    var reversedArray = [];
+    for (var i = initialArray.length - 1; i >= 0; i--) {
+        reversedArray[i] = parseInt(initialArray.shift(), 10);
+    }
+    return reversedArray;
 }
 
 console.log(digits(348597));
@@ -43,9 +40,9 @@ console.log(digits(348597));
 // Build a function to illustrate how to get this sequence to output. If you don’t know where to begin start with pseudo code to work through the steps.
 
 
-var fibonacci[23,32]
-for (var i = 0; i <=8; i++) {
-  fibonacci[i]= fibonacci[i-2] + fibonacci [i-1];
+var fibonacci[23, 32]
+for (var i = 0; i <= 8; i++) {
+    fibonacci[i] = fibonacci[i - 2] + fibonacci[i - 1];
 }
 console.log(fibonacci);
 
@@ -57,6 +54,7 @@ console.log(fibonacci);
 //   // A coupon expires at the END of the expiration date. All dates will be passed in as strings in this format: "June 15, 2014"
 //
 //
+// optional
 // var coupondate = prompt (enter coupon date i.e. june 14 2017");
 //  var currentTime = new Date();
 //
